@@ -6,7 +6,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/',(req,res)=>{
-    res.send('Free REST API - Google Translator - by: @miguelsanchezco');
+    res.send('Free REST API - Google Translator');
 });
 
 
