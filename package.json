@@ -1,0 +1,24 @@
+{
+  "name": "apigt",
+  "version": "1.0.0",
+  "description": "api google traslator by miguel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "nodemon": "nodemon server.js"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Miguel Sanchez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "gh-pages": "^3.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
