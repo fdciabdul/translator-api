@@ -6,7 +6,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/',(req,res)=>{
-    res.send('Free REST API - Google Translator');
+    res.send('Free REST API - Google Translator - by: @miguelsanchezco');
 });
 
 
@@ -85,5 +85,5 @@ app.post('/api/translate', (req,res)=> {
     
 });
 
-const port = process.env.port || 8080;
+const port = process.env.port || 8000;
 app.listen(port,()=>console.log(`Listening in port: ${port}`))
