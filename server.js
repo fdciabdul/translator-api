@@ -85,5 +85,5 @@ app.post('/api/translate', (req,res)=> {
     
 });
 
-const port = process.env.port || 8000;
+const port = process.env.port || 8080;
 app.listen(port,()=>console.log(`Listening in port: ${port}`))
