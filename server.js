@@ -53,7 +53,7 @@ app.post('/api/translate', (req,res) => {
     })
     .then((data) => {
         console.log(data);
-      return res.json({translate: data.sentences[0].trans})
+      return res.json({translation: data.sentences[0].trans})
     })
 
 })
